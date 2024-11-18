@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+        </tr>
+
+        <tr>
+            <td>Jose</td>
+            <td>Perez</td>
+            <td>50</td>
+        </tr>
+
+        <tr>
+            <td>Eva</td>
+            <td>Lopez</td>
+            <td>94</td>
+        </tr>
+    </table>
+
+    <h1>Caption y ColSpan</h1>
+    <table>
+        <caption>Telefonos</caption>
+        <tr>
+            <th>Nombre</th>
+            <th colspan="2">Telefono</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>555333556</td>
+            <td>484959395</td>
+        </tr>
+    </table>
+
+    <h1>RowSpan</h1>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <td>Juan</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telefonos</th>
+            <td>2434545435</td>
+        </tr>
+        <tr>
+            <td>9393838</td>
+        </tr>
+    </table>
+    <h1>Propiedades columnas</h1>
+    <table>
+        <colgroup>
+            <col style="background-color:red">
+            <col style="background-color:yellow">
+            <col style="background-color:green">
+        </colgroup>
+        <tr>
+            <th>ISBN</th>
+            <th>Titulo</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>347</td>
+            <td>Empezando HTML</td>
+            <td>53€</td>
+        </tr>
+        <tr>
+            <td>5869207</td>
+            <td>Intro a CSS</td>
+            <td>49€</td>
+        </tr>
+    </table>
+</body>
+
+</html>
