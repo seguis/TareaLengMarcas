@@ -14,11 +14,18 @@
             <legend>Datos Personales</legend>
             <p>
                 <label for="nombre">Nombre: </label>
-                <input type="text" maxlength="6" name="nombre" id="nombre">
+                <input type="text" maxlength="6" name="nombre" id="nombre"
+                placeholder="Escriba su nombre completo" required>
+            </p>
+            <p>
+                <label for="pob">Poblacion: </label>
+                <input type="text" name="pob" id="pob" 
+                value="Alcanzar de San Juan" readonly autofocus>
             </p>
             <p>
                 <label for="password">Contraseña: </label>
-                <input type="password" maxlength="6" name="password" id="password">
+                <input type="password" maxlength="6" minlength="4"
+                 name="password" id="password">
             </p>
             <p>
                 <label for="hombre">Hombre: </label>
